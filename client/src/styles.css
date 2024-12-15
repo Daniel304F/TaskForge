@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #FF4500;   /* Glutrot */
+    --secondary-color: #FF8C00; /* Glühendes Orange */
+    --background-color: #565656; /* Dunkles Schwarz */
+    --text-color: #FFFFFF;       /* Weiß */
+    --font-family: 'Roboto', sans-serif;
+    --border-radius: 8px;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}

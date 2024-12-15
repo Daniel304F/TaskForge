@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    background-color: #333333;
+}
+header div img {
+    width: 140px;
+    height: 100%
+}
+.header-app-name {
+    display: flex;
+    justify-content: center;
+}
+#app-name {
+    color: var(--text-color);
+}
