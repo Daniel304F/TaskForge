@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-    --primary-color: #FF4500;   /* Glutrot */
-    --secondary-color: #FF8C00; /* Glühendes Orange */
+    --primary-color: #D73F24;   /* Glutrot */
+    --secondary-color: #EC753A; /* Glühendes Orange */
     --background-color: #565656; /* Dunkles Schwarz */
     --text-color: #FFFFFF;       /* Weiß */
     --font-family: 'Roboto', sans-serif;
@@ -12,4 +12,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background-color);
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 12px;
+  border: 0;
+  font-size: 16px;
 }

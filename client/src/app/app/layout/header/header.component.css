@@ -18,3 +18,15 @@ header div img {
 #app-name {
     color: var(--text-color);
 }
+.buttons {
+    margin-left: auto; /* Flex-Item an das Ende schieben */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+button {
+    color: var(--text-color);
+    background: linear-gradient( var(--primary-color), var(--secondary-color));
+    font-size: 30px;
+}
